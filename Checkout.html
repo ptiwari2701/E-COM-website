@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <style>
+            body {
+            font-family: "Poppins", sans-serif;
+            width: 100wh;
+            height: 100vh;
+            color: #fff;
+            background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+            background-size: 400% 400%;
+            -webkit-animation: Gradient 15s ease infinite;
+            -moz-animation: Gradient 15s ease infinite;
+            animation: Gradient 15s ease infinite;
+        }
+        </style>
+    </head>
+    <body onload="getCart()">
+        <div id="listAddToCart">
+
+        </div>
+        <div id="CheckoutInfo">
+            <button id="check" onclick="check(this)">CheckOut</button>
+            <button id="con" onclick="con()">Continue Shopping</button>
+        </div>
+
+    </body>
+    <script src="checkout.js" type="text/javascript"></script>
+</html>
